@@ -44,7 +44,7 @@ The backend serves the weather data via an API, while the frontend consumes this
 
 ## 📸 **Screenshots**
 
-![Weather App Screenshot](path/to/screenshot.png)
+![Weather App Screenshot](screenshot/result.png)
 
 ---
 
