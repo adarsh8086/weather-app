@@ -1,4 +1,5 @@
-# weatherapp/views.py
+
+
 
 
 from django.http import HttpResponse
@@ -12,7 +13,7 @@ class WeatherAPIView(APIView):
         city = request.GET.get('city', 'London')
         
         # Your OpenWeatherMap API key
-        api_key = '3215612eada15d092e16b7b02b51294e'
+        api_key = 'enter api key here'
         
         # Construct the API URL using the city and API key
         url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'  # Adding 'units=metric' to get temperature in Celsius
