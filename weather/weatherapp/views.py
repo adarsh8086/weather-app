@@ -1,22 +1,5 @@
 # weatherapp/views.py
 
-# from django.http import JsonResponse
-# import requests
-
-# def get_weather(request):
-#     api_key = '3215612eada15d092e16b7b02b51294e'
-#     city = 'London'  # Or get from request parameters
-#     url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}'
-    
-#     try:
-#         response = requests.get(url)
-#         weather_data = response.json()
-#         return JsonResponse(weather_data)
-#     except Exception as e:
-#         return JsonResponse({'error': str(e)}, status=500)
-
-
-
 
 from django.http import HttpResponse
 from rest_framework.views import APIView
